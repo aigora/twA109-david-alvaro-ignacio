@@ -19,3 +19,7 @@ Los principales objetivos de nuestro proyecto es tener una nueva forma de medir 
 - Decidimos incluir a demás en nuestro proyecto una sonda de temperatura, que nos será bastante útil para también mostrar por la pantalla la temperatura a la que se encuentra el agua.
 - Un LED para mostrar alguna alarma.
 - Un zumbador como señal acústica. 
+
+# Diagrama de bloques de las aplicaciones 
+
+Hemos añadido una carpeta con el esquema a cerca del diagrama de bloques de nuestro trabajo.
