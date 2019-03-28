@@ -3,9 +3,9 @@ El trabajo consiste en un sistema electrónico basado en un micro controlador de
 
 ## Integrantes del equipo
 
-Ignacio Mayoral Sánchez, i.mayorals@alumnos.upm.es
-David Patrizi Garcia, david.patrizi@alumnos.upm.es
-Alvaro Merodio Pardo, a.merodiop@alumnos.upm.es
+Ignacio Mayoral Sánchez
+David Patrizi Garcia
+Alvaro Merodio Pardo
 
 ## Objetivos del trabajo
 
