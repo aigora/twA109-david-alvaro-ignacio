@@ -3,9 +3,9 @@ El trabajo consiste en un sistema electrónico basado en un micro controlador de
 
 ## Integrantes del equipo
 
-Ignacio Mayoral Sánchez
-David Patrizi Garcia
-Alvaro Merodio Pardo
+Ignacio Mayoral Sánchez,
+David Patrizi Garcia,
+Alvaro Merodio Pardo,
 
 ## Objetivos del trabajo
 
