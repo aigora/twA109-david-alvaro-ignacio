@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<stlib.h>
+//defininmos los pines del sensor ultrasonidos.
+#define PinTrig 7
+#define PinEcho 6
+#define vel_sonido 34000.0 //definimos la velocidad del sonido (cm/s)
+
+float pulseIn(pinEcho);
+
+void main()
+{
+  float distancia;
+  float tiempo;
+  /*definimos los pines del sensor ultrasonido, el pinTrig(pin nº7) como entrada
+  y el pinEcho(pin nº6) y entrada*/
+  pinMode(PinTrig, OUTPUT); 
+  pinMode(PinTrig, INPUT);
+
+  /*No se si meter aqui un "void loop()"*/
+  tiempo = pulseIn(pinEcho, HIGH); /*esta funcion establece el tiempo que tardan los ultrasonidos en ir y volver*/
+  /*ya tenemos el doble del tiempo desde el ultrasonid hasta el objeto*/
+  distancia=(tiempo * 0.000001 * vel_sonido) / 2.0;
+  printf("%f\n", distancia);
+
+  system("pause");
+  return 0;
+}
+
+float PulseIn(pinHigh t)
+{
+  int resultado;
+  digitalWrite(PinTrig,LOW)
+  /*Primero establecemos el pin como 0 y esperamos un tiempo*/
+  delayMicroseconds(10)
+
+  /*ahora lo activamos (HIGH), y esperamos un tiempo*/
+  digitalWrite(PinTrig, HIGH);
+  delayMicroseconds(35);
+
+  /*comenzamos otra vez poniendo el pin desactivado (LOW)*/
+  digitalWrite(PinTrig, LOW);
+}
